@@ -1,0 +1,255 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-02-20 20:08:58.789 Did not auto detect external IP.
+Please go to https://docs.streamlit.io/ for debugging hints.
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://127.0.0.1:8501
+
+2026-02-20 20:09:33.264 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 86, in <module>
+    extra = set(params.keys()) - allowed
+                ^^^^^^
+NameError: name 'params' is not defined
+2026-02-20 20:09:39.405 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 86, in <module>
+    extra = set(params.keys()) - allowed
+                ^^^^^^
+NameError: name 'params' is not defined
+2026-02-20 20:09:44.414 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 86, in <module>
+    extra = set(params.keys()) - allowed
+                ^^^^^^
+NameError: name 'params' is not defined
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-02-20 20:22:25.681 Did not auto detect external IP.
+Please go to https://docs.streamlit.io/ for debugging hints.
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://127.0.0.1:8501
+
+2026-02-20 20:23:00.330 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 86, in <module>
+    actual_keys = set(form_values.keys())  # Verwende form_values statt params
+                      ^^^^^^^^^^^
+NameError: name 'form_values' is not defined
+2026-02-20 20:23:03.124 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 86, in <module>
+    actual_keys = set(form_values.keys())  # Verwende form_values statt params
+                      ^^^^^^^^^^^
+NameError: name 'form_values' is not defined
+2026-02-20 20:23:12.330 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 86, in <module>
+    actual_keys = set(form_values.keys())  # Verwende form_values statt params
+                      ^^^^^^^^^^^
+NameError: name 'form_values' is not defined
+2026-02-20 20:25:47.400 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 86, in <module>
+    actual_keys = set(form_values.keys())  # Verwende form_values statt params
+                      ^^^^^^^^^^^
+NameError: name 'form_values' is not defined
+2026-02-20 20:25:50.653 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 86, in <module>
+    actual_keys = set(form_values.keys())  # Verwende form_values statt params
+                      ^^^^^^^^^^^
+NameError: name 'form_values' is not defined
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-02-20 20:32:05.624 Did not auto detect external IP.
+Please go to https://docs.streamlit.io/ for debugging hints.
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://127.0.0.1:8501
+
+2026-02-20 20:32:13.466 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 98, in <module>
+    actual_keys = set(form_values.keys())  # Verwende form_values statt params
+                      ^^^^^^^^^^^
+NameError: name 'form_values' is not defined
+2026-02-20 20:32:18.862 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 98, in <module>
+    actual_keys = set(form_values.keys())  # Verwende form_values statt params
+                      ^^^^^^^^^^^
+NameError: name 'form_values' is not defined
+2026-02-20 20:32:37.480 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 98, in <module>
+    actual_keys = set(form_values.keys())  # Verwende form_values statt params
+                      ^^^^^^^^^^^
+NameError: name 'form_values' is not defined
+2026-02-20 20:32:39.503 Uncaught app execution
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 672, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 98, in <module>
+    actual_keys = set(form_values.keys())  # Verwende form_values statt params
+                      ^^^^^^^^^^^
+NameError: name 'form_values' is not defined
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-02-21 19:49:56.680 Did not auto detect external IP.
+Please go to https://docs.streamlit.io/ for debugging hints.
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://127.0.0.1:8501
+
+2026-02-21 19:54:17.341 Script compilation error
+Traceback (most recent call last):
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 574, in _run_script
+    code = self._script_cache.get_bytecode(script_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_cache.py", line 72, in get_bytecode
+    filebody = magic.add_magic(filebody, script_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/magic.py", line 45, in add_magic
+    tree = ast.parse(code, script_path, "exec")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/energy_mvp/app.py", line 103
+    	    try:
+    ^
+TabError: inconsistent use of tabs and spaces in indentation
+2026-02-21 19:54:17.424 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+  Stopping...
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-02-21 20:16:58.967 Did not auto detect external IP.
+Please go to https://docs.streamlit.io/ for debugging hints.
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://127.0.0.1:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-02-21 20:18:44.387 Did not auto detect external IP.
+Please go to https://docs.streamlit.io/ for debugging hints.
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://127.0.0.1:8501
+
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-02-22 08:28:33.370 Port 8501 is not available
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+2026-02-22 08:35:55.121 Did not auto detect external IP.
+Please go to https://docs.streamlit.io/ for debugging hints.
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://127.0.0.1:8501
+
+2026-02-22 08:36:05.862 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-22 08:36:05.872 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.

@@ -9,6 +9,9 @@ from core.ev_tco import EvTcoInputs, run_ev_tco
 st.set_page_config(page_title="Potentialanalyse", layout="centered")
 st.title("Potentialanalyse")
 
+def format_eur_de(value: float) -> str:
+    return f"{int(round(value)):,}".replace(",", ".") + " €"
+
 def assert_inputs_match(evform_values: dict):
     expected = {f.name for f in fields(EvTcoInputs)}
     provided = set(form_values.keys())
@@ -107,7 +110,9 @@ if use_case == "E-Fahrzeuge Wirtschaftlichkeit":
             summary, cashflows_yearly, ledger = run_ev_tco(inputs)
 
             st.subheader("Ergebnisse")
-            st.json(summary)
+            st.metric("NPV", format_eur_de(summary.npv))
+            st.metric("Summe Cashflows", format_eur_de(summary.total_net_cashflow))
+            st.metric("Ø jährliche Ersparnis", format_eur_de(summary.avg_yearly_savings))
 
             st.subheader("Cashflows (jährlich)")
             st.dataframe(cashflows_yearly, use_container_width=True)  # Korrektur: Kein __dict__

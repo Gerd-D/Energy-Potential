@@ -171,7 +171,7 @@ def run_ev_tco(inputs: EvTcoInputs) -> Tuple[EvTcoSummary, List[CashflowYear], L
     summary = EvTcoSummary(
         npv=float(npv),
         total_net_cashflow=float(total_net_cf),
-        avg_yearly_savings=float(yearly_savings),
+        avg_yearly_savings=float(total_net_cf / inputs.horizon_years),
     )
 
     post("summary", inputs.base_year, "SUMMARY_NPV", summary.npv, inputs=asdict(inputs))
